@@ -1,0 +1,16 @@
+{
+  "name": "edi-cam",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.10.1",
+    "morgan": "1.4.1",
+    "opencv": "5.0.0",
+    "socket.io": "1.2.1",
+    "faced": "1.x",
+    "underscore": "1.x",
+    "path": "0.x"
+  }
+}

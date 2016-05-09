@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="initial-scale=1"/>
+  <title>face-detection-node-opencv</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+	<form name="getname">
+		<p>Hi </p>
+		<script>
+			var query = window.location.search.substring(10); 
+			var temp = query.split('+');
+			for(var i = 0; i < temp.length; i++) {
+				document.write(temp[i] + ' ');
+			}
+		</script>
+	</form>
+	<div id="welcome"><p>welcome!</p></div>
+  <div class="container center">
+    <canvas id="canvas-video" width="640" height="480"></canvas>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
